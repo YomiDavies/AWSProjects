@@ -1,1 +1,1 @@
-
+This Project was inspired by Fisayomi Fashanu of Cloud Career Mentor. One of the benefits of the cloud deployment is that infrastructure can be scaled easier and quicker compared to on premises deployme
