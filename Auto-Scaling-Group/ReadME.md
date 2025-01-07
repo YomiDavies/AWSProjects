@@ -1,4 +1,4 @@
-                         ![Architecture Diagram](./Auto Scaling Architecture.jpg)
+                         ![Architecture Diagram](./AWSProjects/Auto Scaling Architecture.jpg)
 
 
 
