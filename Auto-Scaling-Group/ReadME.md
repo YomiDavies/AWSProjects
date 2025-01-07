@@ -1,6 +1,8 @@
 
+                         
+                         
                          ![Architecture Diagram](./AWSProjects/Auto-Scaling-Group/Auto Scaling Architecture.jpg)
-               g
+               
 
 
 
