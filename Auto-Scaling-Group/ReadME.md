@@ -1,4 +1,4 @@
-                         ![Architecture Diagram](./Auto Scaling Architecture)
+                         ![Architecture Diagram](./Auto Scaling Architecture.jpg)
 
 
 
