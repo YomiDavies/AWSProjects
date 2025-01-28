@@ -1,6 +1,4 @@
-
-
-    ![AWS Architecture Diagram](https://github.com/YomiDavies/AWSProjects/blob/main/Auto_Scaling_solution/images/Auto%20Scaling%20Architecture.png?raw=true)
+![image alt] (https://github.com/YomiDavies/AWSProjects/blob/main/Auto_Scaling_solution/images/Auto%20Scaling%20Architecture.png?raw=true)   
 
 
 
