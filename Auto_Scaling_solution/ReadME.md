@@ -2,10 +2,21 @@
 
 ![te](https://github.com/YomiDavies/AWSProjects/blob/056a731ae08ffc3ae246de43d9f2825b3b75c9e0/Auto_Scaling_solution/images/Auto%20Scaling%20Architecture.png)   
 
-This Project is a reflection of the importance that i accord to concepts like, auto scaling, cost saving and seciurity.
-In this project i implemented asolution  for an e-commerce website that has an ec2 instance hosting a web server, everything is stable until the sales department starts a sales promotion that instantly becomes popular, as a result , this website receives a spike in traffic at different times. 
-Everytime there is a spike in traffic, the server gets overloaded until it fails, which causes the website to go down, this then leads to customers being disgruntled because they can't access the site. The tech team then brainstorm and considers some scaling alternatives like vertical scaling,which simply means increasing the resources of the ec2 instance for example if the instance was originally 10vcpu and 20 gig of RAM, scaling this inscrance vertically could mean increasing the reources to 20 vcpu and 30 gig of RAM, but after devoting enough time to the data the came to the realization the the spike only occurs once or twice a week, and it was not cost effective to deploy an ec2 instance waith a larger resource.
-The tech team then decides to opt for the horizontal scaling option, which is increasing the number of instances to meet the demand, so in essence rather than having one big instance you can have two or smaller instances that will automatically scale up or down to meet the traffic demand. The task for me is to setup auto-scaling, so this happens automatically, the goal is to create a webserver that can scale up or down to meet up wit the demands of the traffic, for example if the e-commerce website is receiving alot of traffic then it adds more ec2 instances to deal with the increase in workload and when the traffic to the site is reduced, the number of ec2 instances is reduced to save on cost.
+This project reflects the importance I place on concepts like auto-scaling, cost efficiency, and security. In this implementation, I developed a solution for an e-commerce website hosted on an EC2 instance. While the setup initially remains stable, the sales department’s promotional campaigns—which often go viral—cause sudden traffic spikes at unpredictable intervals. These surges overload the server, eventually causing it to fail and take the website offline, frustrating customers who can’t access the platform.
 
-               
-     
+The tech team explored scaling options, first considering vertical scaling (upgrading the EC2 instance’s resources, e.g., increasing from 10 vCPUs and 20GB of RAM to 20 vCPUs and 30GB of RAM). However, after analyzing usage patterns, they realized traffic spikes occurred only once or twice a week. Maintaining a larger instance for rare events proved cost-ineffective.
+
+Instead, the team opted for horizontal scaling, which dynamically adjusts the number of instances to match demand. Rather than relying on a single large instance, this approach uses smaller instances that automatically scale up or down based on traffic.
+
+My task was to configure auto-scaling to ensure seamless adaptation. The goal was to create a web server infrastructure that:
+
+1. Scales up by adding EC2 instances during high traffic (e.g., sales promotions).
+
+2. Scales down during low traffic to minimize costs.
+
+This solution ensures reliability during traffic spikes while optimizing resource usage and cost-efficiency.
+
+
+
+
+
