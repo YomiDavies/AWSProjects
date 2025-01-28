@@ -1,4 +1,10 @@
 
+
+    ## Architecture Diagram
+             ![AWS Architecture Diagram](images/aws-architecture-diagram.png)
+
+
+
                          
                 ![Alt Text](Auto-Scaling-Architecture.png)         
            ![Architecture Diagram](./Auto-Scaling-Group/Auto-Scaling-Architecture.jpg)
